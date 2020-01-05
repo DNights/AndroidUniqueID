@@ -10,9 +10,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //tv_device_id.text = UniqueID.getDeviceID(this)
-        //tv_device_id.text = UniqueID.getSimSerialNumber(this)
-        //tv_device_id.text = UniqueID.getAndroidID(this)
-        tv_device_id.text = UniqueID.getWidevineID()
+        //tv_device_id.text = UniqueID.getDeviceID(this) @Deprecated
+        tv_sim_serial_num.text = UniqueID.getSimSerialNumber(this)
+        tv_android_id.text = UniqueID.getAndroidID(this)
+        tv_widevine_id.text = UniqueID.getWidevineID()
     }
 }
