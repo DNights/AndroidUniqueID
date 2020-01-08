@@ -11,10 +11,6 @@ import java.util.*
 
 object UniqueID {
 
-    fun getUniqueID(context: Context){
-
-    }
-
     @SuppressLint("MissingPermission", "HardwareIds")
     fun getDeviceID(context: Context) : String {
         val telephonyManager = context.getSystemService(Context.TELEPHONY_SERVICE) as TelephonyManager
