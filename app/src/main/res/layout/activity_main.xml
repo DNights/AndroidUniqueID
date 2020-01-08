@@ -11,17 +11,17 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/tv_device_id"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello World!" />
+<!--        <TextView-->
+<!--            android:id="@+id/tv_device_id"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hello World!" />-->
 
-        <TextView
-            android:id="@+id/tv_sim_serial_num"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello World!" />
+<!--        <TextView-->
+<!--            android:id="@+id/tv_sim_serial_num"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Hello World!" />-->
 
         <TextView
             android:id="@+id/tv_android_id"
